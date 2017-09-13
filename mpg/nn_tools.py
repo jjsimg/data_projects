@@ -3,6 +3,7 @@ Functions taken from Andrew Ng Neural Network course from Coursera.
 
 """
 import numpy as np
+import matplotlib.pyplot as plt
 
 def initialize_parameters_deep(layer_dims):
     """
@@ -432,7 +433,7 @@ def L_layer_model(X, Y, layers_dims, learning_rate = 0.0075, num_iterations = 30
     plt.show()
     
     return parameters
-    
+
 
 def predict(X, y, parameters):
     """
