@@ -2,7 +2,7 @@
 Functions taken from Andrew Ng Neural Network course from Coursera. 
 
 """
-
+import numpy as np
 
 def initialize_parameters_deep(layer_dims):
     """
